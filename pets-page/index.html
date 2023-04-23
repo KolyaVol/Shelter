@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="./../images/favicon.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Cozy House</title>
+	</head>
+	<body>
+		<header class="header">
+			<a href="./../index.html" class="logo">
+				<h3 class="logo__title">Cozy&nbsp;House</h3>
+				<span class="logo__subtitle"
+					>Shelter&nbsp;for&nbsp;pets&nbsp;in&nbsp;Boston</span
+				>
+			</a>
+			<div class="burger-icon">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="./../index.html">About&nbsp;the&nbsp;shelter</a>
+					</li>
+					<li class="nav__item active">
+						<a href="#">Our&nbsp;pets</a>
+					</li>
+					<li class="nav__item">
+						<a href="./../index.html#help">Help&nbsp;the&nbsp;shelter</a>
+					</li>
+					<li class="nav__item">
+						<a href="#footer">Contacts</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section class="pets">
+			<div class="container">
+				<h1 class="pets__title common-title">
+					Our friends who <br />
+					are looking for a house
+				</h1>
+				<div class="pets__slider">
+					<section class="pets__slider-wiewbox">
+						<div class="pets__slider-box" id="pets-box"></div>
+					</section>
+				</div>
+				<div class="pets__btns">
+					<button disabled class="pets__slider-left-btn disabled" id="pets__to-first-page">
+						<img src="./../images/to-end.svg" alt="arrows-left" />
+					</button>
+					<button disabled class="pets__slider-left-btn disabled" id="pets__to-prev-page">
+						<img src="./../images/to-right.svg" alt="arrow-left" />
+					</button>
+					<button class="btn btn-pets-page" id="pets__page-number">1</button>
+					<button class="pets__slider-right-btn" id="pets__to-next-page">
+						<img src="./../images/to-right.svg" alt="arrow-right" />
+					</button>
+					<button class="pets__slider-right-btn" id="pets__to-last-page">
+						<img src="./../images/to-end.svg" alt="arrows-right" />
+					</button>
+				</div>
+			</div>
+			<section class="pets-description"></section>
+		</section>
+		<footer class="footer" id="footer">
+			<div class="container">
+				<section class="footer__contacts">
+					<h3 class="common-title footer__title" id="contacts">
+						For questions and&nbsp;suggestions
+					</h3>
+					<a href="https://mail.ru/" target="_blank" class="footer__text">
+						<img src="./../images/icon-email.svg" alt="email" />
+						email@shelter.com
+					</a>
+					<a href="tel:+136745677554" class="footer__text">
+						<img src="./../images/icon-phone.svg" alt="phone" /> +13 674 567 75
+						54
+					</a>
+				</section>
+				<section class="footer__location">
+					<h3 class="common-title footer__title" id="location">
+						We are waiting for your visit
+					</h3>
+					<a
+						href="https://www.google.by/maps/place/Kohi+Coffee+Company/@42.345718,-71.0703994,246m/data=!3m1!1e3!4m15!1m8!3m7!1s0x89e3652d0d3d311b:0x787cbf240162e8a0!2z0JHQvtGB0YLQvtC9LCDQnNCw0YHRgdCw0YfRg9GB0LXRgtGBLCDQodCo0JA!3b1!8m2!3d42.3600825!4d-71.0588801!16zL20vMDFjeF8!3m5!1s0x89e37b764cca79ad:0x667e1a33b978886f!8m2!3d42.3459092!4d-71.0709013!16s%2Fg%2F11rcf1198j?hl=ru"
+						target="_blank"
+						class="footer__text"
+					>
+						<img src="./../images/icon-marker.svg" alt="marker" /> 1 Central
+						Street, Boston (entrance&nbsp;from&nbsp;the&nbsp;store)
+					</a>
+					<a
+						href="https://www.google.by/maps/place/London+Marriott+Hotel+Marble+Arch/@51.5159287,-0.1637539,246m/data=!3m1!1e3!4m18!1m8!3m7!1s0x47d8a00baf21de75:0x52963a5addd52a99!2z0JvQvtC90LTQvtC9LCDQktC10LvQuNC60L7QsdGA0LjRgtCw0L3QuNGP!3b1!8m2!3d51.5072178!4d-0.1275862!16zL20vMDRqcGw!3m8!1s0x48761aca9648f509:0x3ab02494f8c84274!5m2!4m1!1i2!8m2!3d51.5163963!4d-0.1638291!16s%2Fg%2F1td69b_t?hl=ru"
+						target="_blank"
+						class="footer__text"
+					>
+						<img src="./../images/icon-marker.svg" alt="marker" /> 18 South
+						Park, London
+					</a>
+				</section>
+				<img
+					class="footer__img"
+					src="./../images/footer-puppy.png"
+					alt="puppy"
+				/>
+			</div>
+		</footer>
+		<script src="index.js"></script>
+	</body>
+</html>
